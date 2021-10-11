@@ -1,0 +1,135 @@
+.header__container {
+	background-color: #00172d;
+	opacity: 0.5;
+	height: 80px;
+	overflow-y: hidden;
+	transition: height 1s, opacity 0.5s;
+	position: fixed;
+	width: 100vw;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+
+.header__container--expanded {
+	height: 390px;
+	opacity: 1;
+}
+.header__container--enlarged {
+	opacity: 1;
+}
+.header__logo {
+	margin-left: 1rem;
+	height: 80px;
+	transition: 0.5s;
+}
+.header__logo--enlarged {
+	transform: scale(1.2);
+	margin-left: 2rem;
+}
+.header__miniContainer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.header__hamburgerIcon.MuiSvgIcon-root {
+	color: #dbdde9;
+	margin-right: 20px;
+	font-size: 60px;
+	cursor: pointer;
+}
+.header__itemsContainer {
+	list-style-type: none;
+}
+.header__item {
+	width: fit-content;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	color: #dbdde9;
+	font-size: var(--font-big);
+	margin-top: 20px;
+	padding: 0 10px;
+	border-radius: 5px;
+}
+.header__item:hover {
+	background-color: #dbdde9;
+	color: #1c2782;
+}
+.header__item .MuiSvgIcon-root {
+	font-size: var(--font-small);
+	margin-right: 5px;
+}
+.header__socialMediaContainer,
+.header__quoteContainer {
+	display: none;
+}
+
+@media (min-width: 992px) {
+	.header__container {
+		height: 150px;
+		overflow-y: visible;
+	}
+	.header__container:hover {
+		opacity: 1;
+	}
+	.header__hamburgerIcon.MuiSvgIcon-root {
+		display: none;
+	}
+	.header__logo {
+		display: flex;
+		align-items: center;
+		margin: 0 auto 0 auto;
+		height: 110px;
+	}
+	.header__itemsContainer {
+		position: relative;
+		top: -10px;
+		display: flex;
+		justify-content: center;
+		list-style-type: none;
+		padding-bottom: 0;
+	}
+	.header__item {
+		margin-top: 0;
+	}
+	.header__socialMediaContainer {
+		display: initial;
+		margin-left: 2rem;
+		opacity: 0;
+		transition: 1s;
+		pointer-events: none;
+	}
+	.header__social--enlarged {
+		opacity: 1;
+		pointer-events: auto;
+	}
+	.header__socialMediaContainer > p {
+		text-align: center;
+	}
+	.header__socialMediaContainer > svg {
+		color: #dbdde9;
+		font-size: xx-large;
+		margin: 0 15px;
+		cursor: pointer;
+	}
+	.header__quoteContainer {
+		display: initial;
+		margin-right: 30px;
+		background-color: #dbdde9;
+		border-radius: 20px;
+		padding: 10px 15px;
+		opacity: 0;
+		transition: 1s;
+		pointer-events: none;
+	}
+	.header__quote--enlarged {
+		opacity: 1;
+		pointer-events: auto;
+	}
+	.header__quoteContainer > p {
+		font-size: x-large;
+		color: #1c2782;
+		margin-bottom: 0;
+	}
+}

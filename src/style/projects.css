@@ -1,0 +1,221 @@
+.projects__mainImageContainer {
+	height: 250px;
+	color: white;
+	text-align: center;
+	background-image: url("../Assets/Background-pictures/Artistic-Designs-for-Living-720x500.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.ProjectSingle__mainContainer {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.ProjectSingle__name {
+	font-style: italic;
+	text-align: center;
+}
+.ProjectSingle__buttonsCointainer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.ProjectSingle__beforeBtn,
+.ProjectSingle__afterBtn {
+	opacity: 0.4;
+	color: #dbdde9;
+	border: 1px solid white;
+	margin: 20px 0;
+}
+.ProjectSingle__beforeBtn:hover,
+.ProjectSingle__afterBtn:hover {
+	background-color: #dbdde9;
+	color: #00172d;
+}
+.btn__active {
+	pointer-events: none;
+	color: #00172d;
+	background-color: #dbdde9;
+	opacity: 1 !important;
+}
+.ProjectSingle__firstContainer {
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+	width: 90%;
+	margin: 0 auto;
+}
+.ProjectSingle__mainImage {
+	height: 300px;
+	object-fit: cover;
+	position: absolute;
+	width: 50%;
+	transition: 1s;
+	box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+		rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+		rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.img-priority {
+	z-index: 1;
+	transition: 1s;
+}
+.ProjectSingle__mainImage:first-child.img-priority {
+	width: 100%;
+}
+.ProjectSingle__mainImage:last-child {
+	border-left: 2px solid gray;
+	left: 50%;
+}
+.ProjectSingle__mainImage:last-child.img-priority {
+	left: 0;
+	width: 100%;
+}
+.animation__init-firstImg {
+	width: 0;
+}
+.animation__init-secondImg {
+	left: 100%;
+}
+.imageSecondLeft {
+	left: 100% !important;
+}
+
+.ProjectSingle__secondContainer {
+	display: flex;
+	flex-direction: column;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.ProjectSingle__secondContainer > a {
+	text-align: center;
+	margin-bottom: 15px;
+}
+.ProjectSingle__secondContainer > button {
+	width: fit-content;
+	margin: 0 auto 30px auto;
+}
+.ProjectSingle__secondContainer p {
+	padding: 5px 10px;
+}
+.ProjectSingle__thirdContainer {
+	width: 90%;
+	margin: 30px auto 0 auto;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.ProjectSingle__thirdContainer div {
+	height: 200px;
+}
+.ProjectSingle__thirdContainer div > .carousel-indicators {
+	display: none;
+}
+.projects__preloader {
+	background-image: url("../Assets/preloader/771.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.projects__preloader-none {
+	background-image: none;
+}
+
+.ProjectSingle__mainImage__container {
+	height: 300px;
+	width: 100%;
+	position: relative;
+	overflow-x: hidden;
+}
+.ProjectSingle__icon {
+	color: white;
+	width: fit-content;
+	height: fit-content;
+	animation: fa-spin 2s linear infinite;
+	animation-iteration-count: infinite;
+}
+.project__container__layout {
+	display: none;
+}
+.ProjectSingle__images__carousel {
+	object-fit: cover;
+	height: 200px;
+}
+@media (min-width: 470px) {
+	.ProjectSingle__thirdContainer div,
+	.ProjectSingle__images__carousel {
+		height: 340px;
+	}
+}
+@media (min-width: 768px) {
+	.projects__mainImageContainer {
+		height: 350px;
+	}
+	.ProjectSingle__mainContainer {
+		display: flex;
+		flex-flow: row wrap;
+		width: 80%;
+		left: 10%;
+		position: relative;
+	}
+	.ProjectSingle__name {
+		text-align: center;
+		width: 100%;
+		margin: 0 0 30px 30px;
+	}
+	.ProjectSingle__firstContainer {
+		width: 40%;
+	}
+	.ProjectSingle__secondContainer {
+		width: 40%;
+		justify-content: center;
+	}
+	.ProjectSingle__thirdContainer {
+		margin: 60px auto 30px auto;
+		box-shadow: none;
+		width: 90%;
+	}
+	.ProjectSingle__thirdContainer div {
+		height: 300px;
+		width: 100%;
+		left: 0;
+	}
+	.ProjectSingle__thirdContainer div,
+	.ProjectSingle__images__carousel {
+		height: 500px;
+	}
+}
+@media (min-width: 992px) {
+	.projects__mainImageContainer {
+		height: 450px;
+	}
+	.ProjectSingle__thirdContainer > div:first-child {
+		display: none;
+	}
+	.project__container__layout {
+		display: initial;
+	}
+	.project__container__layout img {
+		width: 100%;
+		height: 300px;
+		object-fit: cover;
+		padding: 5px;
+	}
+	.project__container__layout div {
+		padding: 0;
+	}
+}
+@media (min-width: 1200px) {
+	.project__container__layout img {
+		height: 500px;
+		padding: 10px;
+	}
+	.ProjectSingle__secondContainer p {
+		font-size: larger;
+	}
+	.ProjectSingle__beforeBtn,
+	.ProjectSingle__afterBtn {
+		font-size: larger;
+	}
+	.ProjectSingle__secondContainer > button {
+		font-size: x-large;
+	}
+}

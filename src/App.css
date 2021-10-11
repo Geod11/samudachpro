@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Catamaran", sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* General classes */
+:root {
+	--font-smallest: 0.8rem;
+	--font-small: 1rem;
+	--font-medium: 1.2rem;
+	--font-big: 1.4rem;
+	--font-biggest: 1.6rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+	background-color: #00172d;
+	background: linear-gradient(
+		90deg,
+		rgba(0, 23, 45, 1) 51%,
+		rgba(0, 11, 45, 1) 94%,
+		rgba(26, 0, 45, 1) 99%
+	);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+	color: #dbdde9;
 }
-
-.App-link {
-  color: #61dafb;
+hr {
+	color: #dbdde9;
+	height: 4px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+	text-decoration: none;
+}
+.fix-header-a {
+	display: block;
+	position: relative;
+	top: -90px;
+	visibility: hidden;
+}
+@media (min-width: 992px) {
+	.fix-header-a {
+		top: -150px;
+	}
 }

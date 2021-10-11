@@ -1,0 +1,240 @@
+.services__mainImageContainer {
+	height: 250px;
+	color: white;
+	text-align: center;
+	background-image: url("../Assets/Background-pictures/334-farmhouse_orig.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.ServiceDetail__container {
+	display: flex;
+	flex-direction: column;
+
+	margin: 30px 0;
+}
+.services__container > hr {
+	width: 100vw;
+}
+.ServiceDetail__topContainer {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 30px;
+}
+.ServiceDetail__topContainer__title {
+	text-align: center;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: x-large;
+	font-style: italic;
+	margin-bottom: 1.5rem;
+}
+.ServiceDetail__midContainer__title {
+	text-align: center;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: large;
+}
+.ServiceDetail__topContainer__descr,
+.ServiceDetail__midContainer__descr {
+	margin: 15px 0;
+	padding: 0 20px;
+	white-space: pre-line;
+}
+.ServiceDetail__topContainer__descr {
+}
+
+.ServiceDetail__topContainer__img {
+	background-size: cover;
+	width: 100%;
+	min-height: 250px;
+	background-position: center;
+	margin: auto;
+}
+
+.ServiceDetail__midContainer {
+	display: flex;
+	flex-direction: column;
+}
+
+.ServiceDetail__midContainer__img {
+	background-size: cover;
+	width: 100%;
+	min-height: 250px;
+	background-position: center;
+	margin: auto;
+}
+.ServiceDetail__midContainer__button {
+	color: #00172d;
+	background-color: #dbdde9;
+	width: fit-content;
+	margin: 0 auto;
+	font-weight: 600;
+	font-style: italic;
+	margin-top: 30px;
+}
+.ServiceDetail__midContainer > a {
+	text-align: center;
+}
+.services__main__title {
+	text-align: center;
+	border-bottom: 1px solid gray;
+	margin: 20px 0;
+	padding-bottom: 30px;
+}
+.serivces__main__description {
+	padding: 20px;
+	font-size: larger;
+	line-height: normal;
+}
+.serivces__main__description > span {
+	font-style: oblique;
+	text-transform: uppercase;
+}
+.Service__hide__topImg {
+}
+.align-center {
+	margin: 0;
+}
+.display-none {
+	display: none !important;
+}
+.mastic__class {
+}
+.collage {
+	background-position: top;
+	height: 100vw;
+}
+
+@media (min-width: 545px) {
+	.ServiceDetail__container,
+	.serivces__main__description {
+		width: 90%;
+		left: 5%;
+		position: relative;
+	}
+	.ServiceDetail__topContainer__img,
+	.ServiceDetail__midContainer__img {
+		min-height: 300px;
+	}
+	.ServiceDetail__topContainer__descr,
+	.ServiceDetail__midContainer__descr {
+		padding: 0;
+	}
+	.serivces__main__description {
+		padding-left: 0;
+	}
+	.collage {
+		height: 90vw;
+	}
+	.ServiceDetail__midContainer__descr {
+		margin-bottom: 30px;
+	}
+}
+
+@media (min-width: 768px) {
+	.ServiceDetail__midContainer__button {
+		font-size: x-large;
+	}
+	.ServiceDetail__container,
+	.serivces__main__description {
+		width: 80%;
+		left: 10%;
+	}
+	.ServiceDetail__topContainer__title {
+		font-size: xx-large;
+	}
+	.ServiceDetail__topContainer__descr,
+	.ServiceDetail__midContainer__descr {
+		font-size: larger;
+	}
+	.services__mainImageContainer {
+		height: 350px;
+	}
+	.collage {
+		height: 80vw;
+	}
+	.services__mainImageContainer {
+		height: 350px;
+	}
+}
+@media (min-width: 992px) {
+	.ServiceDetail__container,
+	.serivces__main__description {
+		width: 70%;
+		left: 15%;
+	}
+	.ServiceDetail__topContainer__descr,
+	.ServiceDetail__midContainer__descr {
+		font-size: x-large;
+		width: 70%;
+		position: relative;
+		left: 15%;
+	}
+	.ServiceDetail__topContainer__img,
+	.ServiceDetail__midContainer__img {
+		min-height: 450px;
+		width: 50vw;
+	}
+	.ServiceDetail__midContainer__title {
+		font-size: x-large;
+	}
+	.services__mainImageContainer {
+		height: 450px;
+	}
+	.serivces__main__description {
+		width: 60%;
+		left: 20%;
+	}
+	.collage {
+		height: 50vw;
+	}
+	.ServiceDetail__midContainer__descr {
+		margin-bottom: 50px;
+	}
+	.services__mainImageContainer {
+		height: 450px;
+	}
+}
+@media (min-width: 1280px) {
+	/* .ServiceDetail__topContainer__descr,
+	.ServiceDetail__midContainer__descr {
+		width: 70%;
+		left: 15%;
+	}
+	.ServiceDetail__topContainer,
+	.ServiceDetail__midContainer {
+		width: 50%;
+	}
+	.ServiceDetail__container {
+		width: 100%;
+		left: 0;
+		display: flex;
+		flex-flow: row;
+	}
+	.serivces__main__description {
+		width: 60%;
+		left: 20%;
+	}
+	.ServiceDetail__topContainer__img,
+	.ServiceDetail__midContainer__img {
+		min-height: 400px;
+		width: 70%;
+	}
+	.serivces__main__description {
+		font-size: x-large;
+		margin-top: 20px;
+		margin-bottom: 60px;
+		line-height: 2;
+		text-align: center;
+		width: 80%;
+		left: 10%;
+	}
+	.ServiceDetail__midContainer__button {
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%);
+	} */
+}

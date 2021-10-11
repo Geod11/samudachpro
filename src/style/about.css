@@ -1,0 +1,220 @@
+.about__mainImageContainer {
+	height: 250px;
+	color: white;
+	text-align: center;
+	background-image: url("../Assets/Background-pictures/347-farmhouse_orig.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.about__featuredProjectContainer {
+	text-align: center;
+	border-bottom: 1px solid gray;
+	padding-bottom: 20px;
+}
+.about__video {
+	width: 100vw;
+}
+.about__btn {
+	margin: 20px auto 0 auto;
+	font-size: larger;
+}
+.about__main__title {
+	text-align: center;
+	margin: 30px 0 20px 0;
+}
+.about__main__description {
+	font-size: large;
+	padding: 0 2rem 30px 2rem;
+}
+.about__main__description__whyUs {
+	font-size: large;
+	padding: 0 2rem 30px 2rem;
+}
+.about__meetTeam__title {
+	text-align: center;
+	margin: 30px 0 0 0;
+	font-size: larger;
+}
+.about__meetTeamContainer {
+	height: auto;
+	margin: 0 0 20px 0;
+	border-bottom: 1px solid gray;
+}
+.about__meetTeam__innerContainer {
+	position: relative;
+	padding: 20px 0;
+	box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px,
+		rgb(60 64 67 / 15%) 0px 2px 6px 2px;
+}
+.about__meetTeam__profilePic {
+	position: absolute;
+	width: 60px;
+	border-radius: 50%;
+	top: 20px;
+	left: 50%;
+	transform: translateX(-250%);
+}
+.about__meetTeamContainer > div > button.slick-prev {
+	left: 10px;
+	z-index: 2;
+}
+.about__meetTeamContainer > div > button.slick-next {
+	right: 20px;
+}
+.about__meetTeamContainer > div > button.slick-prev,
+.about__meetTeamContainer > div > button.slick-next {
+	width: 35px;
+	height: 35px;
+}
+.meetTeam__name {
+	text-align: center;
+	text-transform: uppercase;
+}
+.meetTeam__position {
+	text-align: center;
+	font-style: italic;
+}
+.meetTeam__description {
+	text-align: center;
+	width: 80%;
+	margin: auto;
+}
+.about__whyUs__picture {
+	display: none;
+}
+.about__whyUs__container {
+	border-bottom: 1px solid gray;
+}
+.slick-next:before,
+.slick-prev:before {
+	font-size: 35px;
+}
+.about__hline_displayBig {
+	display: none;
+}
+.form-in-aboutUs {
+}
+@media (min-width: 576px) {
+	.about__video {
+		height: 300px;
+		object-fit: fill;
+	}
+}
+@media (min-width: 768px) {
+	.form-in-aboutUs {
+		margin-top: 100px;
+	}
+	#topAbout > div.about__whyUs__container > h2 {
+		width: 100%;
+	}
+	.about__whyUs__container {
+		margin-top: 100px;
+		border-top: 1px solid gray;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-evenly;
+		padding-bottom: 35px;
+		align-items: center;
+	}
+
+	.about__btn {
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translate(-50%, 50px);
+	}
+	.about__featuredProjectContainer {
+		width: auto;
+		border-bottom: none;
+	}
+	.about__video {
+		width: 300px;
+		border-radius: 15px;
+		height: auto;
+	}
+	.about__innerContainer {
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		position: relative;
+	}
+	#topAbout > div.about__innerContainer > p {
+		width: 35%;
+		padding: 0;
+	}
+	.about__hline_displayNone {
+		display: none;
+	}
+	.about__featuredProjectContainer > h2 {
+		display: none;
+	}
+	.about__main__description__whyUs {
+		width: 35%;
+		padding: 0;
+		margin-bottom: 0;
+	}
+	.about__whyUs__picture {
+		display: initial;
+		width: 300px;
+		border-radius: 15px;
+		object-fit: contain;
+	}
+	.about__mainImageContainer {
+		height: 350px;
+	}
+}
+@media (min-width: 992px) {
+	.about__innerContainer {
+		padding: 0 5%;
+	}
+	.about__whyUs__container {
+		padding: 0 5% 35px 5%;
+	}
+	.about__main__description {
+		font-size: larger;
+	}
+	.about__main__description__whyUs {
+		font-size: larger;
+	}
+	.about__btn {
+		font-size: x-large;
+	}
+	.about__video,
+	.about__whyUs__picture {
+		width: 350px;
+	}
+	.form-in-aboutUs > form {
+		transform: none;
+		left: 0;
+	}
+	.about__mainImageContainer {
+		height: 450px;
+	}
+}
+@media (min-width: 1400px) {
+	.about__video,
+	.about__whyUs__picture {
+		width: 400px;
+	}
+	.about__main__description,
+	.about__main__description__whyUs {
+		font-size: x-large;
+	}
+	.about__btn {
+		font-size: xx-large;
+	}
+	.about__btn {
+		transform: translate(-50%, 95px);
+	}
+	.about__whyUs__container {
+		margin-top: 140px;
+		padding: 25px 5% 60px 5%;
+	}
+	.about__main__title {
+		margin: 35px 0 35px 0;
+	}
+	.form-in-aboutUs {
+		margin-top: 150px;
+	}
+}
