@@ -21,13 +21,12 @@ function About() {
 				<div className="about__featuredProjectContainer">
 					<h2 className="about__main__title">QUALITY</h2>
 					<video
-						playsinline
-						webkit-playsinline
+						playsinline="true"
+						webkit-playsinline="true"
 						muted
 						loop
 						src={ProjectVideo}
-						autoplay
-						controls
+						autoplay="true"
 						className="about__video"
 					></video>
 					<HashLink smooth to="/projects#topProjects" className="about__CTA">
