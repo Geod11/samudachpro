@@ -23,10 +23,11 @@ function About() {
 					<video
 						playsinline
 						webkit-playsinline
-						muted="muted"
+						muted
 						loop
 						src={ProjectVideo}
-						autoplay="true"
+						autoplay
+						controls
 						className="about__video"
 					></video>
 					<HashLink smooth to="/projects#topProjects" className="about__CTA">
