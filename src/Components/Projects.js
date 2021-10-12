@@ -115,6 +115,7 @@ function Projects() {
 				]}
 				id="project2"
 			/>
+			<hr />
 			<ProjectSingle
 				title="Welsh Hills Project"
 				srcBefore={Project3Before}

@@ -21,6 +21,8 @@ function About() {
 				<div className="about__featuredProjectContainer">
 					<h2 className="about__main__title">QUALITY</h2>
 					<video
+						playsinline
+						webkit-playsinline
 						muted="muted"
 						loop
 						src={ProjectVideo}
