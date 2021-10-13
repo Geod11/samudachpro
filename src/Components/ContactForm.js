@@ -42,7 +42,7 @@ function ContactForm({ hideLogo, centerForm }) {
 
 		emailjs
 			.sendForm(
-				"ervice_qy6os7e",
+				"service_qy6os7e",
 				"template_d8itl3o",
 				e.target.parentElement,
 				"user_R9Gy4Ce4JQ6eFApUNfQIO"
