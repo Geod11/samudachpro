@@ -17,6 +17,8 @@ function ProjectSingle({
 	const [animInit, setAnimInit] = useState(false);
 	const beforeCont = useRef(null);
 	const afterCont = useRef(null);
+	const beforeBtn = useRef(null);
+	const afterBtn = useRef(null);
 
 	const mutateArr = (arr) => {
 		let newArr = [...arr];
@@ -35,6 +37,8 @@ function ProjectSingle({
 	const setDefaultBeforeAfter = () => {
 		beforeCont.current.className = "ProjectSingle__mainImage false false";
 		afterCont.current.className = "ProjectSingle__mainImage false false";
+		beforeBtn.current.className = "ProjectSingle__beforeBtn btn false";
+		afterBtn.current.className = "ProjectSingle__afterBtn btn false";
 	};
 	return (
 		<div className="ProjectSingle__mainContainer">
@@ -43,6 +47,7 @@ function ProjectSingle({
 			<div className="ProjectSingle__firstContainer">
 				<div className="ProjectSingle__buttonsCointainer">
 					<div
+						ref={beforeBtn}
 						onClick={() => {
 							setBtnBefore("before");
 							setAnimInit(true);
@@ -60,6 +65,7 @@ function ProjectSingle({
 						}}
 					></i>
 					<div
+						ref={afterBtn}
 						onClick={() => {
 							setBtnBefore("after");
 							setAnimInit(true);

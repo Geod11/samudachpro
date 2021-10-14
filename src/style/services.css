@@ -52,7 +52,7 @@
 	background-size: cover;
 	width: 100%;
 	min-height: 250px;
-	background-position: center;
+	background-position: bottom;
 	margin: auto;
 }
 
@@ -119,7 +119,7 @@
 	}
 	.ServiceDetail__topContainer__img,
 	.ServiceDetail__midContainer__img {
-		min-height: 300px;
+		min-height: 370px;
 	}
 	.ServiceDetail__topContainer__descr,
 	.ServiceDetail__midContainer__descr {
