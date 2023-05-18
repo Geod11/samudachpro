@@ -12,10 +12,9 @@ function About() {
       <div className="about__innerContainer">
         <p className="about__main__description">
           Bine ați venit la Samudachpro, partenerul dumneavoastră de încredere
-          în soluții de construcții și construcții. Cu o reputație solidă pentru
-          excelență și angajamentul de a oferi rezultate excepționale, suntem
-          mândri să fim una dintre companiile de construcții de top din
-          industrie.
+          în soluții de construcții. Cu o reputație solidă pentru excelență și
+          angajamentul de a oferi rezultate excepționale, suntem mândri să fim
+          una dintre companiile de construcții de top din industrie.
           <br />
           <br /> La Samudachpro, înțelegem că proiectele de construcție sunt mai
           mult decât cărămizi și mortar. Sunt despre transformarea viselor în
@@ -32,15 +31,15 @@ function About() {
           adaptate pentru a satisface cerințele dumneavoastră specifice la timp
           și în limita bugetului.
           <br />
-          <br /> Vă mulțumim că ați considerat Samudachpro partenerul dvs. de
-          construcții. Așteptăm cu nerăbdare oportunitatea de a colabora cu
-          dumneavoastră și de a vă transforma visele de construcție în
-          realitate. Contactați-ne astăzi pentru a discuta despre proiectul dvs.
+          <br /> Vă mulțumim că ați considerat Samudachpro, partenerul
+          dumneavoastră de construcții. Așteptăm cu nerăbdare oportunitatea de a
+          colabora și de a vă transforma visele de construcție în realitate.
+          Contactați-ne astăzi pentru a discuta despre proiectul dumneavoastră
           și pentru a descoperi cum vă putem aduce viziunea la viață.
         </p>
         <hr className="about__hline_displayNone" />
         <div className="about__featuredProjectContainer">
-          <h2 className="about__main__title">QUALITY</h2>
+          <h2 className="about__main__title">CALITATE</h2>
           <video
             playsinline="true"
             webkit-playsinline="true"
@@ -52,7 +51,7 @@ function About() {
           ></video>
           <HashLink smooth to="/projects#topProjects" className="about__CTA">
             <button className="about__btn btn btn-primary">
-              Find Out More
+              Afla mai mult
             </button>
           </HashLink>
         </div>
