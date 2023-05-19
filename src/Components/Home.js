@@ -26,15 +26,15 @@ function Home() {
         <h1 className="home__aboutSection__title">Samudachpro</h1>
         <p className="home__aboutSection__description">
           SC Samudachpro SRL este o companie de construcții cu sediul în Ocna
-          Mureș care este specializată în hale metalice, terase, foișoare,
-          dulgherie și înălțare mansarde.
+          Mureș care este specializată în construirea de acoperișuri, mansarde,
+          hale metalice, terase, foișoare, garaje și garduri.
         </p>
       </div>
       <hr />
       <h1 className="home__Services__title">Servicii</h1>
       <div className="home__servicesContainer">
         <ServiceSingle
-          title="Renovations"
+          title="Renovări "
           image={RenovationMain}
           link="/services#renovation"
         />

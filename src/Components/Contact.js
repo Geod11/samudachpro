@@ -39,36 +39,34 @@ function Contact() {
       <div className="contact__container__instructionsPicture">
         <div className="contact__instructions__container">
           <div>
-            <h2 className="contact__instructions__title">Contact Us</h2>
+            <h2 className="contact__instructions__title">Contact</h2>
             <p className="contact__instructions__info">
-              <span>Address</span>
+              <span>Adresă</span>
               <br />
-              2 Dorset way
+              Strada Lungă nr.19
               <br />
-              TW2 6NB
+              Orașul Ocna Mureș
               <br />
-              Twickenham
-              <br />
-              <br />
-              <span>Working hours</span>
-              <br />
-              Monday - Friday : 08:00-17:30
-              <br />
-              Saturday : 09:00-16:00
-              <br />
-              Sunday : Closed
+              Județul Alba
               <br />
               <br />
-              <span>Phone</span>
+              <span>Program</span>
               <br />
-              +44&nbsp;7769&nbsp;316891
+              Luni - Vineri : 08:00-17:00
               <br />
-              +44&nbsp;7798&nbsp;884613
+              Sâmbătă - Duminică : Închis
+              <br />
+              <br />
+              <span>Telefon</span>
+              <br />
+              +40&nbsp;753&nbsp;769943
+              <br />
+              +40&nbsp;758&nbsp;644137
               <br />
               <br />
               <span>Email</span>
               <br />
-              contact@totabuildersltd.co.uk
+              samuioan12@icloud.com{" "}
             </p>
           </div>
         </div>

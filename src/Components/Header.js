@@ -7,7 +7,7 @@ import CloseIcon from "@material-ui/icons/Close";
 import HomeIcon from "@material-ui/icons/Home";
 import InfoIcon from "@material-ui/icons/Info";
 import SettingsApplicationsIcon from "@material-ui/icons/SettingsApplications";
-import AccountTreeIcon from "@material-ui/icons/AccountTree";
+// import AccountTreeIcon from "@material-ui/icons/AccountTree";
 import ContactMailIcon from "@material-ui/icons/ContactMail";
 // import logo from "../Assets/Logo/color1-white_logo_transparent_background.png";
 import FacebookIcon from "@material-ui/icons/Facebook";
@@ -132,12 +132,12 @@ function Header() {
             Servicii
           </li>
         </HashLink>
-        <HashLink smooth to="/projects#topProjects">
+        {/* <HashLink smooth to="/projects#topProjects">
           <li className="header__item">
             <AccountTreeIcon />
             Proiecte
           </li>
-        </HashLink>
+        </HashLink> */}
         <HashLink smooth to="/contact#topContact">
           <li className="header__item">
             <ContactMailIcon />

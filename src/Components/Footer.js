@@ -8,28 +8,28 @@ function Footer() {
     <div className="footer__mainContainer">
       <div className="footer__innerContainer">
         <div className="footer__workingHours">
-          <h2>Working Hours</h2>
+          <h2>Program</h2>
           <ul>
             <li>
-              Monday<span>08:00-17:30</span>
+              Luni<span>08:00-17:00</span>
             </li>
             <li>
-              Tuesday<span>08:00-17:30</span>
+              Marți<span>08:00-17:00</span>
             </li>
             <li>
-              Wednesday<span>08:00-17:30</span>
+              Miercuri &nbsp;<span>08:00-17:00</span>
             </li>
             <li>
-              Thursday<span>08:00-17:30</span>
+              Joi<span>08:00-17:00</span>
             </li>
             <li>
-              Friday<span>08:00-17:30</span>
+              Vineri<span>08:00-17:00</span>
             </li>
             <li>
-              Saturday<span>09:00-16:00</span>
+              Sâmbătă<span>Închis</span>
             </li>
             <li>
-              Sunday<span>Closed</span>
+              Duminică<span>Închis</span>
             </li>
           </ul>
         </div>
@@ -37,20 +37,34 @@ function Footer() {
 					<h2>Instagram</h2>
 				</div> */}
         <div className="footer__officeLocation">
-          <h2>Richmond Office</h2>
+          <h2>Sediu</h2>
           <p>
-            2 Dorset Way
+            Strada Lungă nr.19
             <br />
-            Twickenham
+            Orașul Ocna Mureș
             <br />
-            TW2 6NB
+            Județul Alba
             <br />
           </p>
         </div>
         <div className="footer__socialMedia">
           <ul>
-            <FacebookIcon />
-            <InstagramIcon />
+            <a
+              href="https://www.facebook.com/profile.php?id=100063591846277"
+              alt="Facebook Icon"
+              target={"_blank"}
+              rel={"noreferrer"}
+            >
+              <FacebookIcon />
+            </a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100063591846277"
+              alt="Facebook Icon"
+              target={"_blank"}
+              rel={"noreferrer"}
+            >
+              <InstagramIcon />
+            </a>
           </ul>
         </div>
       </div>

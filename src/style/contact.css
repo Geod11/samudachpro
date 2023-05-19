@@ -1,4 +1,5 @@
 .contact__mainImageContainer {
+	
 	height: 250px;
 	color: white;
 	text-align: center;
@@ -63,8 +64,8 @@
 .contact__instructions__title {
 	margin-bottom: 30px;
 }
-.contact__instructions__info {
-}
+/* .contact__instructions__info {
+} */
 .contact__instructions__info > span {
 	font-weight: 600;
 	font-style: italic;
@@ -231,7 +232,7 @@
 		box-shadow: none;
 	}
 	.contact__logo_inner {
-		display: initial;
+		display: none;
 		left: 25px;
 		transform: translate(0, -50%);
 	}
