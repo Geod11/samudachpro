@@ -25,12 +25,13 @@ function Home() {
       <div className="home__aboutSection">
         <h1 className="home__aboutSection__title">Samudachpro</h1>
         <p className="home__aboutSection__description">
-          Tota Builders are a company in London that specialises in exceptional
-          Renovations and General building works.
+          SC Samudachpro SRL este o companie de construcții cu sediul în Ocna
+          Mureș care este specializată în hale metalice, terase, foișoare,
+          dulgherie și înălțare mansarde.
         </p>
       </div>
       <hr />
-      <h1 className="home__Services__title">Services</h1>
+      <h1 className="home__Services__title">Servicii</h1>
       <div className="home__servicesContainer">
         <ServiceSingle
           title="Renovations"

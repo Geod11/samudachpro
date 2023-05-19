@@ -1,5 +1,11 @@
 .header__container {
-	background-color: #00172d;
+	background-color: #0084ff;
+	background: linear-gradient(
+		90deg,
+		rgb(0, 132, 255) 51%,
+		rgb(0, 38, 151) 94%,
+		rgba(26, 0, 45, 1) 99%
+	);
 	opacity: 0.5;
 	height: 80px;
 	overflow-y: hidden;

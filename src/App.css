@@ -13,11 +13,11 @@
 	--font-biggest: 1.6rem;
 }
 body {
-	background-color: #00172d;
+	background-color: #0084ff;
 	background: linear-gradient(
 		90deg,
-		rgba(0, 23, 45, 1) 51%,
-		rgba(0, 11, 45, 1) 94%,
+		rgb(0, 132, 255) 51%,
+		rgb(0, 38, 151) 94%,
 		rgba(26, 0, 45, 1) 99%
 	);
 }
