@@ -23,9 +23,6 @@ import PaintingAndDecorating2 from "../Assets/RoyaltyFreePhotos/decorating1.jpg"
 // Wallpapering imports
 import Wallpapering1 from "../Assets/RoyaltyFreePhotos/decorating2.jpg";
 import Wallpapering2 from "../Assets/RoyaltyFreePhotos/renovation1.jpg";
-// Mastic imports
-import Mastic1 from "../Assets/RoyaltyFreePhotos/mastic1.jpeg";
-import Mastic2 from "../Assets/RoyaltyFreePhotos/mastic2.jpeg";
 
 function Services() {
   return (
