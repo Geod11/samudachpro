@@ -34,32 +34,37 @@ function Home() {
       <h1 className="home__Services__title">Servicii</h1>
       <div className="home__servicesContainer">
         <ServiceSingle
-          title="Renovări "
+          title="Acoperișuri "
           image={RenovationMain}
           link="/services#renovation"
         />
         <ServiceSingle
-          title="Kitchens "
+          title="Mansarde "
           image={KitchenMain}
           link="/services#kitchen"
         />
         <ServiceSingle
-          title="Bathrooms "
+          title="Hale metalice "
           image={BathroomMain}
           link="/services#bathroom"
         />
         <ServiceSingle
-          title="Flooring "
+          title="Terase "
           image={FlooringMain}
           link="/services#flooring"
         />
         <ServiceSingle
-          title="Plumbing & Electrics"
+          title="Foișoare "
           image={PlumbingMain}
           link="/services#plumbingElectrics"
         />
         <ServiceSingle
-          title="Painting & Decorating"
+          title="Garaje "
+          image={PaintingMain}
+          link="/services#paintingDecorating"
+        />
+        <ServiceSingle
+          title="Garduri "
           image={PaintingMain}
           link="/services#paintingDecorating"
         />

@@ -117,7 +117,7 @@ function ContactForm({ hideLogo, centerForm }) {
         id="Contact-Form"
         className={`contact__form__inner ${centerForm && "center-form"}`}
       >
-        <h2>Get In Touch</h2>
+        <h2>Așteptăm mesajul tău</h2>
         <div className="contact__form__input__container">
           <label htmlFor="name" className="contact__form__label">
             Nume*
@@ -131,7 +131,7 @@ function ContactForm({ hideLogo, centerForm }) {
           <input
             value={inputs.name || ""}
             onChange={handleInputChange}
-            placeholder="Nume..."
+            placeholder="..."
             type="text"
             id="name"
             name="name"
@@ -151,7 +151,7 @@ function ContactForm({ hideLogo, centerForm }) {
           <input
             value={inputs.email || ""}
             onChange={handleInputChange}
-            placeholder="Email..."
+            placeholder="..."
             type="email"
             id="email"
             name="email"
@@ -165,7 +165,7 @@ function ContactForm({ hideLogo, centerForm }) {
           <input
             value={inputs.phone || ""}
             onChange={handleInputChange}
-            placeholder="Telefon..."
+            placeholder="..."
             type="text"
             id="phone"
             name="phone"
@@ -199,7 +199,7 @@ function ContactForm({ hideLogo, centerForm }) {
           <textarea
             value={inputs.message || ""}
             onChange={handleInputChange}
-            placeholder="Mesaj..."
+            placeholder="..."
             id="message"
             name="message"
             className="contact__form__input form-control-sm"

@@ -93,8 +93,6 @@
 .about__hline_displayBig {
 	display: none;
 }
-.form-in-aboutUs {
-}
 @media (min-width: 576px) {
 	.about__video {
 		height: 300px;
