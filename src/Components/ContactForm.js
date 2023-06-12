@@ -42,10 +42,10 @@ function ContactForm({ hideLogo, centerForm }) {
 
     emailjs
       .sendForm(
-        "service_qy6os7e",
-        "template_d8itl3o",
+        "service_v115sje",
+        "template_qj1pj2t",
         e.target.parentElement,
-        "user_R9Gy4Ce4JQ6eFApUNfQIO"
+        "2DEifTVyVNAAoXmob"
       )
       .then(
         () => {
@@ -120,7 +120,7 @@ function ContactForm({ hideLogo, centerForm }) {
         <h2>Așteptăm mesajul tău</h2>
         <div className="contact__form__input__container">
           <label htmlFor="name" className="contact__form__label">
-            Nume*
+            Nume*&nbsp;
             {formValid === false && (
               <>
                 <br />
@@ -140,7 +140,7 @@ function ContactForm({ hideLogo, centerForm }) {
         </div>
         <div className="contact__form__input__container">
           <label htmlFor="email" className="contact__form__label">
-            Email*
+            Email*&nbsp;
             {formValid === false && (
               <>
                 <br />

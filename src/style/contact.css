@@ -3,7 +3,7 @@
 	height: 250px;
 	color: white;
 	text-align: center;
-	background-image: url("../Assets/Background-pictures/752x506-Dark-Blue-Kitchens.jpg");
+	background-image: url("../Assets/Background-pictures/dakota-roos-dSRhwPe6v9c-unsplash.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -92,7 +92,7 @@
 }
 .contact__form__input__container {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	width: 300px;
 	margin-bottom: 15px;
 }
@@ -256,6 +256,7 @@
 		width: 400px;
 	}
 }
+*/
 @media (min-width: 1400px) {
 	.contact__form__input {
 		width: 60%;
@@ -270,4 +271,4 @@
 	.contact__form__inner > h2 {
 		margin-bottom: 30px;
 	}
-} */
+} 

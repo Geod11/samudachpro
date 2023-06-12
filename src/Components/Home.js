@@ -2,9 +2,9 @@ import React from "react";
 import { HashLink } from "react-router-hash-link";
 import ServiceSingle from "./ServiceSingle";
 import "../style/home.css";
-import Carousel from "react-bootstrap/Carousel";
-import TestimonialsBackground from "../Assets/Background-pictures/testimonialsBackground.jpg";
-import StarIcon from "@material-ui/icons/Star";
+// import Carousel from "react-bootstrap/Carousel";
+// import TestimonialsBackground from "../Assets/Background-pictures/testimonialsBackground.jpg";
+// import StarIcon from "@material-ui/icons/Star";
 // Import main Images (Services)
 import PaintingMain from "../Assets/RoyaltyFreePhotos/painting1.jpg";
 import KitchenMain from "../Assets/RoyaltyFreePhotos/kitchen-main.jpg";
@@ -14,9 +14,9 @@ import PlumbingMain from "../Assets/RoyaltyFreePhotos/plumbing-main.jpg";
 import RenovationMain from "../Assets/RoyaltyFreePhotos/renovation-main2.jpeg";
 
 // Import main Images (Projects)
-import Wembley from "../Assets/Projects/Wembley/3.jpeg";
-import Clapham from "../Assets/Projects/Clapham/8.jpeg";
-import Welsh from "../Assets/Projects/Welsh/4.jpeg";
+// import Wembley from "../Assets/Projects/Wembley/3.jpeg";
+// import Clapham from "../Assets/Projects/Clapham/8.jpeg";
+// import Welsh from "../Assets/Projects/Welsh/4.jpeg";
 
 function Home() {
   return (
@@ -74,7 +74,7 @@ function Home() {
           Read More
         </button>
       </HashLink>
-
+      {/* 
       <hr />
       <h1 className="home__Projects__title">Latest Projects</h1>
       <div className="home__servicesContainer home__servicesContainer-Projects ">
@@ -100,9 +100,9 @@ function Home() {
         </button>
       </HashLink>
       <hr />
-      <h2 className="Testimonials">Testimonials</h2>
+      <h2 className="Testimonials">Testimonials</h2> */}
       {/* Carousel */}
-      <Carousel>
+      {/* <Carousel>
         <Carousel.Item>
           <img
             className="d-block w-100 home__testimonials__image"
@@ -151,7 +151,7 @@ function Home() {
             </div>
           </Carousel.Caption>
         </Carousel.Item>
-      </Carousel>
+      </Carousel> */}
     </div>
   );
 }

@@ -76,6 +76,7 @@
 .header__companyName {
 	font-size: x-large;
 	color:#dbdde9;
+	padding-left: 5px;
 }
 .headerSocialMediaIcons {
 	color: #dbdde9;

@@ -2,7 +2,7 @@
 	height: 250px;
 	color: white;
 	text-align: center;
-	background-image: url("../Assets/Background-pictures/334-farmhouse_orig.jpg");
+	background-image: url("../Assets/Background-pictures/eugen-str-CrhsIRY3JWY-unsplash.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -45,8 +45,8 @@
 	padding: 0 20px;
 	white-space: pre-line;
 }
-.ServiceDetail__topContainer__descr {
-}
+/* .ServiceDetail__topContainer__descr {
+} */
 
 .ServiceDetail__topContainer__img {
 	background-size: cover;
@@ -95,16 +95,16 @@
 	font-style: oblique;
 	text-transform: uppercase;
 }
-.Service__hide__topImg {
-}
+/* .Service__hide__topImg {
+} */
 .align-center {
 	margin: 0;
 }
 .display-none {
 	display: none !important;
 }
-.mastic__class {
-}
+/* .mastic__class {
+} */
 .collage {
 	background-position: top;
 	height: 100vw;
