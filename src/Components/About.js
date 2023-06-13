@@ -1,8 +1,8 @@
 import React from "react";
 import "../style/about.css";
 import ProjectVideo from "../Assets/video/1.mp4";
-import { HashLink } from "react-router-hash-link";
-import ContactForm from "./ContactForm";
+// import { HashLink } from "react-router-hash-link";
+// import ContactForm from "./ContactForm";
 
 function About() {
   return (
@@ -49,18 +49,18 @@ function About() {
             autoplay="true"
             className="about__video"
           ></video>
-          <HashLink smooth to="/projects#topProjects" className="about__CTA">
+          {/* <HashLink smooth to="/projects#topProjects" className="about__CTA">
             <button className="about__btn btn btn-primary">
               Afla mai mult
             </button>
-          </HashLink>
+          </HashLink> */}
         </div>
       </div>
       <hr className="about__hline_displayBig" />
       {/* Why us <p> */}
 
       {/* Contact form */}
-      <ContactForm className="form-in-aboutUs" hideLogo centerForm />
+      {/* <ContactForm className="form-in-aboutUs" hideLogo centerForm /> */}
     </div>
   );
 }

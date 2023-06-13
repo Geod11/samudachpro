@@ -38,31 +38,37 @@ function Home() {
           image={RenovationMain}
           link="/services#renovation"
         />
+        <br />
         <ServiceSingle
           title="Mansarde "
           image={KitchenMain}
           link="/services#kitchen"
         />
+        <br />
         <ServiceSingle
           title="Hale metalice "
           image={BathroomMain}
           link="/services#bathroom"
         />
+        <br />
         <ServiceSingle
           title="Terase "
           image={FlooringMain}
           link="/services#flooring"
         />
+        <br />
         <ServiceSingle
           title="Foișoare "
           image={PlumbingMain}
           link="/services#plumbingElectrics"
         />
+        <br />
         <ServiceSingle
           title="Garaje "
           image={PaintingMain}
           link="/services#paintingDecorating"
         />
+        <br />
         <ServiceSingle
           title="Garduri "
           image={PaintingMain}

@@ -31,7 +31,7 @@
 	text-transform: uppercase;
 	font-size: x-large;
 	font-style: italic;
-	margin-bottom: 1.5rem;
+	/* margin-bottom: 1.5rem; */
 }
 .ServiceDetail__midContainer__title {
 	text-align: center;
@@ -62,11 +62,12 @@
 }
 
 .ServiceDetail__midContainer__img {
-	background-size: cover;
+	background-size: contain;
 	width: 100%;
 	min-height: 250px;
 	background-position: center;
 	margin: auto;
+	background-repeat: no-repeat;
 }
 .ServiceDetail__midContainer__button {
 	color: #00172d;
@@ -107,7 +108,8 @@
 } */
 .collage {
 	background-position: top;
-	height: 100vw;
+	/* height: 100vw; */
+	object-fit: cover;
 }
 
 @media (min-width: 545px) {
@@ -178,7 +180,7 @@
 	.ServiceDetail__topContainer__img,
 	.ServiceDetail__midContainer__img {
 		min-height: 450px;
-		width: 50vw;
+		/* width: 50vw; */
 	}
 	.ServiceDetail__midContainer__title {
 		font-size: x-large;
@@ -200,7 +202,7 @@
 		height: 450px;
 	}
 }
-@media (min-width: 1280px) {
+/* @media (min-width: 1280px) { */
 	/* .ServiceDetail__topContainer__descr,
 	.ServiceDetail__midContainer__descr {
 		width: 70%;
@@ -240,4 +242,4 @@
 		left: 50%;
 		transform: translateX(-50%);
 	} */
-}
+/* } */
