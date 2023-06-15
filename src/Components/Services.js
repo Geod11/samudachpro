@@ -31,11 +31,11 @@ function Services() {
       <p className="serivces__main__description">
         <span>Samudachpro </span> este o echipă de constructori de înaltă
         calificare și meseriași toți dedicați să se asigure că proiectul prinde
-        forma imaginată. Dacă proiectul dumneavoastră implică un apartament sau
-        o casă renovare în NUME_ORAS și sunteți în căutarea unei echipe cu ochi
-        pentru detaliu, pasiune pentru precizie și angajament pentru calitatea
-        finisajului, atunci contactați-ne astăzi pentru nevoile dvs. de
-        renovare.
+        forma imaginată. Dacă proiectul dumneavoastră implică un apartament, o
+        casă sau un teren și sunteți în căutarea unei echipe cu ochi pentru
+        detaliu, pasiune pentru precizie și angajament pentru calitatea
+        finisajului, atunci contactați-ne astăzi pentru nevoile dvs. de renovare
+        si contruire.
       </p>
       <h1 className="services__main__title">Servicii</h1>
 
