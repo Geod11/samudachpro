@@ -24,8 +24,11 @@
 
 .footer__mainContainer {
 	border-top: 1px solid gray;
+	position: absolute;
+    width: 100%;
 }
 .footer__innerContainer {
+	
 	display: flex;
 	flex-flow: column;
 	margin-top: 20px;
