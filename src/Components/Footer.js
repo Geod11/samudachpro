@@ -70,6 +70,17 @@ function Footer() {
       </div>
       <div className="footer__endContainer">
         <p>© 2023 - SC SAMUDACHPRO SRL</p>
+        <p>
+          Pagină web creată de{" "}
+          <a
+            className="developerSignatureLink"
+            href="https://www.linkedin.com/in/george-alexandru-danilescu-6b6aa456/"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            Danilescu George Alexandru
+          </a>
+        </p>
       </div>
     </div>
   );

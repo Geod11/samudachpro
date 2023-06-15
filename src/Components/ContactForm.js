@@ -140,7 +140,7 @@ function ContactForm({ hideLogo, centerForm }) {
         </div>
         <div className="contact__form__input__container">
           <label htmlFor="email" className="contact__form__label">
-            Email*&nbsp;
+            Email*&nbsp;&nbsp;
             {formValid === false && (
               <>
                 <br />

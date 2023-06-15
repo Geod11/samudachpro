@@ -6,13 +6,13 @@ import "../style/home.css";
 // import TestimonialsBackground from "../Assets/Background-pictures/testimonialsBackground.jpg";
 // import StarIcon from "@material-ui/icons/Star";
 // Import main Images (Services)
-import PaintingMain from "../Assets/RoyaltyFreePhotos/painting1.jpg";
-import KitchenMain from "../Assets/RoyaltyFreePhotos/kitchen-main.jpg";
-import BathroomMain from "../Assets/RoyaltyFreePhotos/bathroom-main.jpg";
-import FlooringMain from "../Assets/RoyaltyFreePhotos/flooring-main.jpg";
-import PlumbingMain from "../Assets/RoyaltyFreePhotos/plumbing-main.jpg";
-import RenovationMain from "../Assets/RoyaltyFreePhotos/renovation-main2.jpeg";
-
+import PaintingMain from "../Assets/RoyaltyFreePhotos/GarrageMain.jpeg";
+import Kitchen2 from "../Assets/RoyaltyFreePhotos/AtticMain.jpeg";
+import Bathroom2 from "../Assets/RoyaltyFreePhotos/MetalShedMain.jpeg";
+import Flooring2 from "../Assets/RoyaltyFreePhotos/TerraceMain.jpeg";
+import PlumbingMain from "../Assets/RoyaltyFreePhotos/GazeboMain.jpeg";
+import Renovation2 from "../Assets/RoyaltyFreePhotos/RoofMain.jpeg";
+import FenceMain from "../Assets/RoyaltyFreePhotos/FenceMain.jpeg";
 // Import main Images (Projects)
 // import Wembley from "../Assets/Projects/Wembley/3.jpeg";
 // import Clapham from "../Assets/Projects/Clapham/8.jpeg";
@@ -35,25 +35,25 @@ function Home() {
       <div className="home__servicesContainer">
         <ServiceSingle
           title="Acoperișuri "
-          image={RenovationMain}
+          image={Renovation2}
           link="/services#renovation"
         />
         <br />
         <ServiceSingle
           title="Mansarde "
-          image={KitchenMain}
+          image={Kitchen2}
           link="/services#kitchen"
         />
         <br />
         <ServiceSingle
           title="Hale metalice "
-          image={BathroomMain}
+          image={Bathroom2}
           link="/services#bathroom"
         />
         <br />
         <ServiceSingle
           title="Terase "
-          image={FlooringMain}
+          image={Flooring2}
           link="/services#flooring"
         />
         <br />
@@ -71,7 +71,7 @@ function Home() {
         <br />
         <ServiceSingle
           title="Garduri "
-          image={PaintingMain}
+          image={FenceMain}
           link="/services#paintingDecorating"
         />
       </div>

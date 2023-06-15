@@ -43,7 +43,7 @@ function ServiceInDetail({
         <p className="ServiceDetail__midContainer__descr">{descrMid}</p>
         <div
           style={{ backgroundImage: `url(${imageMid})` }}
-          className={`ServiceDetail__midContainer__img ${collage && "collage"}`}
+          className={`ServiceDetail__midContainer__img collage`}
         ></div>
         <HashLink to="/contact#contactForm">
           <button className="ServiceDetail__midContainer__button btn">
