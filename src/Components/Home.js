@@ -77,7 +77,7 @@ function Home() {
       </div>
       <HashLink to="/services#topServices">
         <button className="home__readMoreServices btn btn-primary">
-          Alfa mai mult
+          Află mai mult
         </button>
       </HashLink>
       {/* 
