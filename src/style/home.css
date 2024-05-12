@@ -200,6 +200,7 @@
 		width: 40%;
 		height: 300px;
 		margin-bottom: 40px;
+		border-radius: 10px;
 	}
 	.home__readMoreServices,
 	.home__readMoreProjects {

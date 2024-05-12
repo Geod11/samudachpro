@@ -42,55 +42,55 @@ function Home() {
           image={Renovation2}
           link="/services#renovation"
         />
-        <br />
+
         <ServiceSingle
           title="Mansarde "
           image={Kitchen2}
           link="/services#kitchen"
         />
-        <br />
+
         <ServiceSingle
           title="Hale metalice "
           image={Bathroom2}
           link="/services#bathroom"
         />
-        <br />
+
         <ServiceSingle
           title="Terase "
           image={Flooring2}
           link="/services#flooring"
         />
-        <br />
+
         <ServiceSingle
           title="Foișoare "
           image={PlumbingMain}
           link="/services#plumbingElectrics"
         />
-        <br />
+
         <ServiceSingle
           title="Garaje "
           image={PaintingMain}
           link="/services#paintingDecorating"
         />
-        <br />
+
         <ServiceSingle
           title="Garduri "
           image={FenceMain}
           link="/services#wallpapering"
         />
-        <br />
+
         <ServiceSingle
           title="Jgheaburi "
           image={GutterMain}
           link="/services#jgheaburi"
         />
-        <br />
+
         <ServiceSingle
           title="Curățare de Acoperișuri "
           image={RoofCleanMain}
           link="/services#acoperisuri"
         />
-        <br />
+
         <ServiceSingle
           title="Dulgherie "
           image={Carpentry}
