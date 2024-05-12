@@ -13,6 +13,9 @@ import Flooring2 from "../Assets/RoyaltyFreePhotos/TerraceMain.jpeg";
 import PlumbingMain from "../Assets/RoyaltyFreePhotos/GazeboMain.jpeg";
 import Renovation2 from "../Assets/RoyaltyFreePhotos/RoofMain.jpeg";
 import FenceMain from "../Assets/RoyaltyFreePhotos/FenceMain.jpeg";
+import GutterMain from "../Assets/RoyaltyFreePhotos/GutterMain.jpg";
+import RoofCleanMain from "../Assets/RoyaltyFreePhotos/RoofCleanMain.jpeg";
+import Carpentry from "../Assets/RoyaltyFreePhotos/Carpentry.jpg";
 // Import main Images (Projects)
 // import Wembley from "../Assets/Projects/Wembley/3.jpeg";
 // import Clapham from "../Assets/Projects/Clapham/8.jpeg";
@@ -27,7 +30,8 @@ function Home() {
         <p className="home__aboutSection__description">
           SC Samudachpro SRL este o companie de construcții cu sediul în Ocna
           Mureș care este specializată în construirea de acoperișuri, mansarde,
-          hale metalice, terase, foișoare, garaje și garduri.
+          hale metalice, terase, foișoare, garaje, jgheaburi, dulgherie,
+          curățare de acoperișuri și garduri.
         </p>
       </div>
       <hr />
@@ -72,13 +76,29 @@ function Home() {
         <ServiceSingle
           title="Garduri "
           image={FenceMain}
-          link="/services#paintingDecorating"
+          link="/services#wallpapering"
+        />
+        <br />
+        <ServiceSingle
+          title="Jgheaburi "
+          image={GutterMain}
+          link="/services#jgheaburi"
+        />
+        <br />
+        <ServiceSingle
+          title="Curățare de Acoperișuri "
+          image={RoofCleanMain}
+          link="/services#acoperisuri"
+        />
+        <br />
+        <ServiceSingle
+          title="Dulgherie "
+          image={Carpentry}
+          link="/services#dulgherie"
         />
       </div>
       <HashLink to="/services#topServices">
-        <button className="home__readMoreServices btn btn-primary">
-          Află mai mult
-        </button>
+        <button className="home__readMoreServices btn">Află mai mult</button>
       </HashLink>
       {/* 
       <hr />

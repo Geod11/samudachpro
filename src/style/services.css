@@ -6,6 +6,7 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	
 }
 
 .ServiceDetail__container {
@@ -16,6 +17,7 @@
 }
 .services__container {
 	overflow: hidden;
+	
 }
 .services__container > hr {
 	width: 100vw;
@@ -30,7 +32,7 @@
 	font-weight: 600;
 	text-transform: uppercase;
 	font-size: x-large;
-	font-style: italic;
+	/* font-style: italic; */
 	/* margin-bottom: 1.5rem; */
 }
 .ServiceDetail__midContainer__title {
@@ -70,12 +72,12 @@
 	background-repeat: no-repeat;
 }
 .ServiceDetail__midContainer__button {
-	color: #00172d;
+	color: #000000;
 	background-color: #dbdde9;
 	width: fit-content;
 	margin: 0 auto;
 	font-weight: 600;
-	font-style: italic;
+	/* font-style: italic; */
 	margin-top: 30px;
 }
 .ServiceDetail__midContainer > a {
@@ -83,7 +85,7 @@
 }
 .services__main__title {
 	text-align: center;
-	border-bottom: 1px solid gray;
+	border-bottom: 1px solid #B0B0B0;
 	margin: 20px 0;
 	padding-bottom: 30px;
 }

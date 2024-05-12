@@ -23,6 +23,9 @@ import PaintingAndDecorating2 from "../Assets/RoyaltyFreePhotos/Garrages.jpg";
 // Wallpapering imports
 // import Wallpapering1 from "../Assets/RoyaltyFreePhotos/decorating2.jpg";
 import Wallpapering2 from "../Assets/RoyaltyFreePhotos/Fences.jpg";
+import Mastic2 from "../Assets/RoyaltyFreePhotos/GuttersCollage.jpg";
+import RoofCleaning from "../Assets/RoyaltyFreePhotos/RoofWashCollage.jpg";
+import Carpentry from "../Assets/RoyaltyFreePhotos/CarpentryCollage.jpg";
 
 function Services() {
   return (
@@ -122,17 +125,45 @@ function Services() {
         btnMid="Află mai mult"
         id="wallpapering"
       />
-      {/* <hr />
+      <hr />
       <ServiceInDetail
-        titleTop="Mastic"
-        descrTop=""
-        imageTop={Mastic1}
-        titleMid="The process"
-        descrMid={`Tota Builders deliver internal and external silicone for clients through the UK with the highest quality joint sealing. With our dedication to quality and reliability, we always look towards building long term business relationships with all our customers.`}
+        titleTop="Jgheaburi"
+        descrTop="Spuneți adio sistemelor tradiționale de jgheaburi și salutați viitorul managementului apei cu jgheaburile dintr-o singura piesă. Acesta prezintă un nou standard pentru eficiență, durabilitate și estetică."
+        imageTop={""}
+        titleMid=""
+        descrMid={`Design fără sudură: Spre deosebire de jgheaburile secționale tradiționale, sistemul nostru dintr-o singură piesă elimină cusăturile, reducând riscul de scurgeri și asigurând un flux fluid al apei.
+        Construcție robustă: Fabricate din materiale premium, jgheaburile noastre sunt construite pentru a rezista la cele mai dure condiții meteorologice, oferind protecție de lungă durată proprietății dumneavoastră.
+        Aspect elegant: Cu designul său perfect și opțiunile de finisare personalizabile, sporesc atractivitatea oricărei case sau clădiri, adăugând o notă de eleganță modernă.
+        Instalare ușoară: Echipa noastră de experți asigură un proces de instalare fără probleme, economisind timp și bătăi de cap, oferind în același timp rezultate impecabile. `}
         imageMid={Mastic2}
-        btnMid="Get in Touch"
-        id="mastic"
-      /> */}
+        btnMid="Află mai mult"
+        id="jgheaburi"
+      />
+      <hr />
+      <ServiceInDetail
+        titleTop="Curățare de Acoperișuri"
+        descrTop="Echipa noastră de profesioniști este specializată în restaurarea acoperișurilor la strălucirea lor de odinioară, lăsându-le curate și revitalizate."
+        imageTop={""}
+        titleMid=""
+        descrMid={`Curățare amănunțită: folosim tehnici și soluții avansate pentru a elimina murdăria, mușchiul, algele și alți contaminanți de pe suprafața acoperișului dvs.
+        Tratament blând: Procesul nostru de curățare este blând, dar eficient, fara nicio deteriorare a șindrilei sau structurii acoperișului dumneavoastră.       
+        Rapid și convenabil: Cu metodele noastre eficiente de curățare, acoperișul dumneavoastră va arăta ca nou în cel mai scurt timp, fără a vă perturba rutina zilnică.       
+        Protecție: Curățarea regulată a acoperișului nu numai că îmbunătățește aspectul casei tale, ci și prelungește durata de viață a acoperișului, economisind bani pentru reparații costisitoare pe termen lung.
+        Nu lăsa un acoperiș murdar să stingă strălucirea casei tale.`}
+        imageMid={RoofCleaning}
+        btnMid="Află mai mult"
+        id="acoperisuri"
+      />
+      <ServiceInDetail
+        titleTop="Dulgherie"
+        descrTop="Echipa noastră se mândrește cu zeci de ani de experiență combinată, asigurându-ne că fiecare piesă pe care o creăm este realizată cu abilități și atenție la detalii de neegalat. Indiferent dacă doriți mobilier la comandă, lucrări de lemn complicate sau dulapuri uimitoare, vă transformăm viziunea în realitate cu soluții personalizate care reflectă stilul și preferințele dunmeavoastră unice."
+        imageTop={""}
+        titleMid=""
+        descrMid={`Ne aprovizionăm doar cu lemn de cea mai bună calitate, selectat meticulos pentru frumusețea și durabilitatea sa, asigurându-ne că fiecare piesă rezistă testului timpului. De la concept până la finalizare, echipa noastră dedicată oferă servicii personalizate, ghidându-vă prin fiecare pas al procesului pentru a vă asigura satisfacția deplină.`}
+        imageMid={Carpentry}
+        btnMid="Află mai mult"
+        id="dulgherie"
+      />
     </div>
   );
 }

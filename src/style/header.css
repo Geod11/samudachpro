@@ -1,11 +1,11 @@
 .header__container {
-	background-color: #0084ff;
-	background: linear-gradient(
+	background-color: #B0B0B0;
+	/* background: linear-gradient(
 		90deg,
 		rgb(0, 132, 255) 51%,
 		rgb(0, 38, 151) 94%,
 		rgba(26, 0, 45, 1) 99%
-	);
+	); */
 	opacity: 0.5;
 	height: 80px;
 	overflow-y: hidden;
@@ -60,7 +60,7 @@
 }
 .header__item:hover {
 	background-color: #dbdde9;
-	color: #1c2782;
+	color: #000000;
 }
 .header__item .MuiSvgIcon-root {
 	font-size: var(--font-small);
@@ -69,17 +69,19 @@
 .header__socialMediaContainer {
 	display: none;
 	justify-content: center;
+	color: #000000;
+	font-size: larger;
 }
 .header__quoteContainer {
 	display: none;
 }
 .header__companyName {
 	font-size: x-large;
-	color:#dbdde9;
+	color:#000000;
 	padding-left: 5px;
 }
 .headerSocialMediaIcons {
-	color: #dbdde9;
+	color: #000000;
 	height: 2rem !important;
 	width: 2rem !important;
 }
@@ -140,8 +142,8 @@
 	.header__quoteContainer {
 		display: initial;
 		margin-right: 30px;
-		background-color: #dbdde9;
-		border-radius: 20px;
+		background-color: #ffffff;
+		border-radius: 10px;
 		padding: 10px 15px;
 		opacity: 0;
 		transition: 1s;
@@ -153,7 +155,7 @@
 	}
 	.header__quoteContainer > p {
 		font-size: x-large;
-		color: #1c2782;
+		color: #000000;
 		margin-bottom: 0;
 	}
 }

@@ -1,23 +1,24 @@
   .developerSignatureLink:link {
-	color: green;
-	background-color: transparent;
+	color: rgb(6, 6, 6);
+	background-color: #B0B0B0;
 	text-decoration: none;
+	border-radius: 10px;
   }
   
   .developerSignatureLink:visited {
-	color: rgb(251, 251, 251);
-	background-color: transparent;
+	color: rgb(0, 0, 0);
+	background-color: #B0B0B0;
 	text-decoration: none;
   }
   
   .developerSignatureLink:hover {
-	color: red;
+	color: rgb(164, 164, 164);
 	background-color: transparent;
 	text-decoration: none;
   }
   
   .developerSignatureLink:active {
-	color: rgb(251, 251, 251);
+	color: rgb(0, 0, 0);
 	background-color: transparent;
 	text-decoration: none;
   }
@@ -40,7 +41,7 @@
 /* .footer__workingHours h2 {
 } */
 .footer__workingHours ul {
-	color: #dbdde9;
+	color: #000000;
 	list-style-type: none;
 	padding-left: 0;
 }
@@ -66,7 +67,7 @@
 }
 .footer__socialMedia ul svg {
 	cursor: pointer;
-	color: #dbdde9;
+	color: #000000;
 	font-size: xx-large;
 }
 .footer__endContainer {

@@ -80,7 +80,14 @@ function Header() {
           </div>
         </div>
         <HashLink to="/#topHome">
-          <div className="header__companyName">S.C. SAMUDACHPRO S.R.L.</div>
+          <div
+            className={`header__socialMediaContainer ${
+              scrollY && "header__social--enlarged"
+            }`}
+          >
+            S.C. SAMUDACHPRO S.R.L.
+          </div>
+          {/* <div className="header__companyName">S.C. SAMUDACHPRO S.R.L.</div> */}
           {/* <img
             className={`header__logo ${scrollY && "header__logo--enlarged"}`}
             src={logo}

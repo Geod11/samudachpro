@@ -40,24 +40,19 @@
 	padding: 10px 20px;
 	border-radius: 20px;
 	color: #dbdde9;
-	background: linear-gradient(
-		90deg,
-		rgba(0, 23, 45, 1) 51%,
-		rgba(0, 11, 45, 1) 94%,
-		rgba(26, 0, 45, 1) 99%
-	);
+	background: #B0B0B0;
 	width: fit-content;
 	transition: 0.8s;
 	font-weight: 700;
-	font-style: italic;
+	/* font-style: italic; */
 	display: flex;
 	align-items: center;
 }
 
 .ServiceSingle__title:hover {
 	padding-right: 70px;
-	color: #dbdde9;
-	background-color: #1c2782;
+	color: #B0B0B0;
+	background-color: #B0B0B0;
 }
 .ServiceSingle__title:hover:after {
 	position: absolute;
@@ -73,6 +68,13 @@
 	display: flex;
 	margin: 20px auto;
 	font-size: larger;
+	background-color: #B0B0B0;
+	color: white;
+}
+.home__readMoreProjects:hover {
+	background-color: #B0B0B0 !important; 
+	color: white !important;
+	border: none !important;
 }
 .carousel {
 	height: auto;
@@ -160,7 +162,7 @@
 	}
 	.ServiceSingle__container {
 		height: 300px;
-		border-top: 2px solid #00172d;
+		/* border: 10px gray; */
 	}
 	.carousel {
 		height: 400px;
@@ -213,8 +215,8 @@
 	}
 	.ServiceSingle__title:hover {
 		padding-right: 150px;
-		color: #dbdde9;
-		background-color: #1c2782;
+		color: #ffffff;
+		background-color: #B0B0B0;
 	}
 	.ServiceSingle__title:hover:after {
 		top: 50%;
