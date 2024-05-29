@@ -61,9 +61,6 @@ function Contact() {
               <br />
               +40&nbsp;753&nbsp;769943
               <br />
-              +40&nbsp;758&nbsp;644137
-              <br />
-              <br />
               <span>Email</span>
               <br />
               samuioan12@icloud.com{" "}
