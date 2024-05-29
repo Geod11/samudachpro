@@ -1,6 +1,7 @@
 import React from "react";
 import "../style/contact.css";
 import ContactForm from "./ContactForm";
+import ContactDetailsCard from "./ContactDetailsCard";
 
 function Contact() {
   // configure emailJS
@@ -32,12 +33,14 @@ function Contact() {
       <h1 className="contact__title">CONTACTEAZĂ-NE</h1>
       <p className="contact__info">
         Suntem aici pentru a răspunde la toate întrebările sau pentru a rezerva
-        o oră care vă este convenabilă pentru ca unul dintre membrii echipei
-        noastre să vină pentru a vă discuta planurile.
+        o oră care vă este convenabilă astfel încât unul dintre membrii echipei
+        noastre să vă contacteze pentru a vă ajuta cu informații suplimentare.
         <br />
       </p>
       <div className="contact__container__instructionsPicture">
-        <div className="contact__instructions__container">
+        <ContactForm />
+        <ContactDetailsCard />
+        {/* <div className="contact__instructions__container">
           <div>
             <h2 className="contact__instructions__title">Contact</h2>
             <p className="contact__instructions__info">
@@ -61,14 +64,14 @@ function Contact() {
               <br />
               +40&nbsp;753&nbsp;769943
               <br />
+              <br />
               <span>Email</span>
               <br />
               samuioan12@icloud.com{" "}
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
-      <ContactForm />
     </div>
   );
 }

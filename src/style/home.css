@@ -27,7 +27,8 @@
 }
 .ServiceSingle__container {
 	height: 200px;
-
+	margin: 10px;
+    border-radius: 10px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;

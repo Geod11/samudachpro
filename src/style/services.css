@@ -70,7 +70,7 @@
 	background-position: center;
 	margin: auto;
 	background-repeat: no-repeat;
-	border-radius: 10px;
+	/* border-radius: 10px; */
 }
 .ServiceDetail__midContainer__button {
 	color: #000000;
@@ -110,9 +110,10 @@
 /* .mastic__class {
 } */
 .collage {
-	background-position: top;
-	/* height: 100vw; */
+	/* background-position: top; */
+	height: 60vw;
 	object-fit: cover;
+
 }
 
 @media (min-width: 545px) {
@@ -133,9 +134,9 @@
 	.serivces__main__description {
 		padding-left: 0;
 	}
-	.collage {
-		height: 90vw;
-	}
+	/* .collage {
+		height: 70vw;
+	} */
 	.ServiceDetail__midContainer__descr {
 		margin-bottom: 30px;
 	}
@@ -160,9 +161,9 @@
 	.services__mainImageContainer {
 		height: 350px;
 	}
-	.collage {
-		height: 80vw;
-	}
+	/* .collage {
+		height: 70vw;
+	} */
 	.services__mainImageContainer {
 		height: 350px;
 	}
@@ -196,7 +197,7 @@
 		left: 20%;
 	}
 	.collage {
-		height: 50vw;
+		height: 55vw;
 	}
 	.ServiceDetail__midContainer__descr {
 		margin-bottom: 50px;
