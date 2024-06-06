@@ -1,4 +1,4 @@
-.about__mainImageContainer {
+/* .about__mainImageContainer {
 	height: 250px;
 	color: white;
 	text-align: center;
@@ -6,31 +6,32 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-}
-.about__featuredProjectContainer {
+} */
+/* .about__featuredProjectContainer {
 	text-align: center;
 	border-bottom: 1px solid gray;
-	padding-bottom: 20px;
-}
+	padding-right: 20px;
+} */
 .about__video {
-	width: 100vw;
+	width: 300px;
+	margin-right: 20px;
 }
-.about__btn {
+/* .about__btn {
 	margin: 20px auto 0 auto;
 	font-size: larger;
-}
-.about__main__title {
+} */
+/* .about__main__title {
 	text-align: center;
 	margin: 30px 0 20px 0;
-}
-.about__main__description {
+} */
+/* .about__main__description {
 	font-size: large;
 	padding: 0 2rem 30px 2rem;
-}
-.about__main__description__whyUs {
+} */
+/* .about__main__description__whyUs {
 	font-size: large;
 	padding: 0 2rem 30px 2rem;
-}
+} */
 .about__meetTeam__title {
 	text-align: center;
 	margin: 30px 0 0 0;
@@ -80,12 +81,12 @@
 	width: 80%;
 	margin: auto;
 }
-.about__whyUs__picture {
+/* .about__whyUs__picture {
 	display: none;
-}
-.about__whyUs__container {
+} */
+/* .about__whyUs__container {
 	border-bottom: 1px solid gray;
-}
+} */
 .slick-next:before,
 .slick-prev:before {
 	font-size: 35px;
@@ -95,18 +96,19 @@
 }
 @media (min-width: 576px) {
 	.about__video {
-		height: 300px;
+		height: 200px;
 		object-fit: fill;
+		border-radius: 15px;
 	}
 }
 @media (min-width: 768px) {
-	.form-in-aboutUs {
+	/* .form-in-aboutUs {
 		margin-top: 100px;
-	}
-	#topAbout > div.about__whyUs__container > h2 {
+	} */
+	/* #headerAboutRoute > div.about__whyUs__container > h2 {
 		width: 100%;
-	}
-	.about__whyUs__container {
+	} */
+	/* .about__whyUs__container {
 		margin-top: 100px;
 		border-top: 1px solid gray;
 		display: flex;
@@ -114,105 +116,105 @@
 		justify-content: space-evenly;
 		padding-bottom: 35px;
 		align-items: center;
-	}
+	} */
 
-	.about__btn {
+	/* .about__btn {
 		position: absolute;
 		bottom: 0;
 		left: 50%;
 		transform: translate(-50%, 50px);
-	}
-	.about__featuredProjectContainer {
+	} */
+	/* .about__featuredProjectContainer {
 		width: auto;
 		border-bottom: none;
-	}
+	} */
 	.about__video {
-		width: 300px;
+		width: 350px;
 		border-radius: 15px;
 		height: auto;
 	}
-	.about__innerContainer {
+	/* .about__innerContainer {
 		display: flex;
 		justify-content: space-evenly;
 		align-items: center;
 		position: relative;
-	}
-	#topAbout > div.about__innerContainer > p {
+	} */
+	/* #headerAboutRoute > div.about__innerContainer > p {
 		width: 35%;
 		padding: 0;
-	}
-	.about__hline_displayNone {
+	} */
+	/* .about__hline_displayNone {
 		display: none;
-	}
-	.about__featuredProjectContainer > h2 {
+	} */
+	/* .about__featuredProjectContainer > h2 {
 		display: none;
-	}
-	.about__main__description__whyUs {
+	} */
+	/* .about__main__description__whyUs {
 		width: 35%;
 		padding: 0;
 		margin-bottom: 0;
-	}
-	.about__whyUs__picture {
+	} */
+	/* .about__whyUs__picture {
 		display: initial;
 		width: 300px;
 		border-radius: 15px;
 		object-fit: contain;
-	}
-	.about__mainImageContainer {
+	} */
+	/* .about__mainImageContainer {
 		height: 350px;
-	}
+	} */
 }
 @media (min-width: 992px) {
-	.about__innerContainer {
+	/* .about__innerContainer {
 		padding: 0 5%;
-	}
-	.about__whyUs__container {
+	} */
+	/* .about__whyUs__container {
 		padding: 0 5% 35px 5%;
-	}
-	.about__main__description {
+	} */
+	/* .about__main__description {
 		font-size: larger;
-	}
-	.about__main__description__whyUs {
+	} */
+	/* .about__main__description__whyUs {
 		font-size: larger;
-	}
-	.about__btn {
+	} */
+	/* .about__btn {
 		font-size: x-large;
-	}
-	.about__video,
-	.about__whyUs__picture {
+	} */
+	/* .about__video, */
+	/* .about__whyUs__picture {
 		width: 350px;
-	}
-	.form-in-aboutUs > form {
+	} */
+	/* .form-in-aboutUs > form {
 		transform: none;
 		left: 0;
-	}
-	.about__mainImageContainer {
+	} */
+	/* .about__mainImageContainer {
 		height: 450px;
-	}
+	} */
 }
 @media (min-width: 1400px) {
-	.about__video,
+	/* .about__video,
 	.about__whyUs__picture {
 		width: 400px;
-	}
-	.about__main__description,
-	.about__main__description__whyUs {
+	} */
+	/* .about__main__description, */
+	/* .about__main__description__whyUs {
 		font-size: x-large;
-	}
-	.about__btn {
+	} */
+	/* .about__btn {
 		font-size: xx-large;
-	}
-	.about__btn {
+	} */
+	/* .about__btn {
 		transform: translate(-50%, 95px);
-	}
-	.about__whyUs__container {
+	} */
+	/* .about__whyUs__container {
 		margin-top: 140px;
 		padding: 25px 5% 60px 5%;
-	}
-	.about__main__title {
+	} */
+	/* .about__main__title {
 		margin: 35px 0 35px 0;
-	}
-	.form-in-aboutUs {
+	} */
+	/* .form-in-aboutUs {
 		margin-top: 150px;
-	}
+	} */
 }
